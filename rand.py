@@ -4,5 +4,6 @@ names = names_string.split(", ")
 print(names)
 count_members = len(names)
 print(count_members)
+count_members -= 1  # this is needed as count is from 0
 draw = random.randint(0, count_members)
 print(f"Today's bill will be paid by {names[draw]}")
