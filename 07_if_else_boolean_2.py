@@ -13,7 +13,7 @@ def days_to_units(num_of_days):
     elif num_of_days == 0:
         return print(f"value zero no conversion")
     else:
-        return print(f"you entered negative value")
+        return print(f"you entered invalid number")
 
 
 days_to_units(1)
